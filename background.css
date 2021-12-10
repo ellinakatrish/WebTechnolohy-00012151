@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+#id{
+    position: re;
+    left: 1000px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+ 
+.header_nav{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(202, 165, 233);
+   
+}
+.header_nav .menu_link-a:hover{
+    color: rgb(204, 181, 181);
+    text-decoration: line-through;
+}
+
+
+.menu{
+    display: flex;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+.menu_link{
+    color: black;
+    font-size: 25px;
+}
+.menu_link:not(:last-child){
+    margin-right: 15px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(68, 13, 64, 0.781);
+    margin: 20px 0 20px 0;
+    align-items: center;
+} 
+/* intro */
+header{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background/photo_2021-12-08_21-18-25.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(126, 174, 247, 0.288);
+
+}
+
+.home_title{
+    font-weight: 600;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    padding-top: 30vh;
+    width: 100%;
+    height: 10px;
+    
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.title_link{
+    color: black;
+}
+
+
+body {
+    font-family: "Montserrat-Regular";
+    position: relative;
+}
+
+.dog{
+    width: 250px;
+    height: 300px;
+    margin: 70px 0 70px 0;
+    border: 5px solid rgb(202, 165, 233);
+    border-radius: 4px;
+}
+
+.dog1{
+    width: 370px;
+    height: 250px;
+    margin: 70px 0 70px 0;
+    border: 5px solid rgb(202, 165, 233);
+    border-radius: 4px;
+}
+
+.dog2{
+    width: 370px;
+    height: 200px;
+    margin: 70px 0 70px 0;
+    border: 5px solid rgb(202, 165, 233);
+    border-radius: 4px;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid rgb(202, 165, 233);
+
+}
+
+.section{
+    background: rgb(201, 162, 233);
+    
+}
+
+
+.text{
+    width: 800px;
+}
+
+
+
+.section{
+    background-color: white;
+
+}
+
+.portfolio__row{
+    text-align: center;
+
+}
+
+.footer {
+    background: rgb(202, 165, 233);
+
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.footer__map{
+    text-align-last: left;
+    margin: 10px 0 10px 0;
+}
+
+.footer__logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(68, 13, 64, 0.781);
+    align-items: center;
+}
+
+.footer__web{
+    color: rgba(68, 13, 64, 0.781);
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.courses__header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/IMG_20201117_021307_798.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.courses__header-title{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 70px;
+}
+
+.courses__section-title{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.courses__section-text{
+    color: rgb(51, 50, 50);
+    text-align: left;
+    margin: 30px 40px 50px 40px;
+    font-size: 20px;
+    justify-content: center;
+   
+}
+
+.courses__section_cards-card{
+    max-width: 300px;
+    height: 100px;
+    background-color: rgb(202, 165, 233);
+    margin-bottom: 50px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 25px;
+    
+} 
+
+.courses__section_cards{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.section1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+
+
+}
+
+
+
+
+
+
+
+.portofolio-sec1{
+    width: 100%;
+    height: 100vh;
+    background: url(/images/photo_2021-12-10_22-41-38.jpg);
+    background-size: cover;
+    font-size: 40px;
+    padding-top: 290px;
+
+}
+
+.portofolio-sec2{
+    width: auto;
+    height: 100vh;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 290px;
+}
+
+.portofolio-sec3{
+    width: auto;
+    height: 100vh;
+    background-image: url(/images/IMG_20201022_105522_933.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 290px;
+}
+
+.portofolio-sec4{
+    width: auto;
+    height: 100vh;
+    background-image: url(/images/DSC_1828.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 290px;
+}
+
+.portofolio-sec5{
+    width: auto;
+    height: 100vh;
+    background-image: url(/images/photo_2021-08-06_22-05-47.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 290px;
+}
+
+.portofolio-sec6{
+    width: auto;
+    height: 100vh;
+    background-image: url(/images/photo_2021-12-10_22-42-04.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 290px;
+}
+
+.portofolio-sec7{
+    width: auto;
+    height: 100vh;
+    background-image: url(/images/IMG_20201117_021307_798.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 290px;
+
+}
