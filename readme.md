@@ -3,6 +3,8 @@
 My work has represented the photo blog with courses. The website shows the blog of a photographer and at the same time the developer photo courses with individual program. Both of IT science and photo, take me inspirited and it was pretty interesting to combine these two my pleasure time in this web site. Truly I have understood all the parts I can be done faster and perfect, however it is my first project from this course and I will be improving myself by repeating this work like an exercise. Im glad of my work neither the fact that some codes had a lot of bags....however any experience is good and certain has helped me to point on my errors. my website is consists from six parts. one of the is portfolio where i have shown my works like a photographer and some information about owner. the psge "suggestions" shows the video helping with thise sphere of work. The page "photohraphy" shows some motivation for you. I hope you will enjoy my website and after this experience I will be able to do this work fastly and perfect. 
 
 
+## Link to [Github](https://github.com/ellinakatrish/WebTechnolohy-00012151.git)
+## Link to [Website]()
 
 
 reference list
